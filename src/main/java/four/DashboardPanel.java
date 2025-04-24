@@ -3,6 +3,11 @@ package four;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * Integrates a dashboard with the cards, timer, and stories.
+ *
+ * @author javiergs
+ */
 public class DashboardPanel extends JPanel {
 	
 	public DashboardPanel(DashboardNanny dashboardNanny) {
@@ -13,3 +18,4 @@ public class DashboardPanel extends JPanel {
 	}
 	
 }
+

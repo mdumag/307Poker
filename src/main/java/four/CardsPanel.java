@@ -3,6 +3,11 @@ package four;
 import javax.swing.*;
 import java.awt.*;
 
+/**
+ * Panel that displays the cards used for estimating.
+ *
+ * @author javiergs
+ */
 public class CardsPanel extends JPanel {
 	
 	private static final String[] CARD_VALUES = {
@@ -20,3 +25,4 @@ public class CardsPanel extends JPanel {
 	}
 
 }
+

@@ -2,6 +2,11 @@ package one;
 
 import java.util.LinkedList;
 
+/**
+ * Shared data structure for the application.
+ *
+ * @author javiergs
+ */
 public class Blackboard {
 	
 	private static LinkedList<String> names = new LinkedList<>();
@@ -26,3 +31,4 @@ public class Blackboard {
 	}
 
 }
+

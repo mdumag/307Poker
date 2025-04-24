@@ -2,12 +2,17 @@ package one;
 
 import javax.swing.*;
 
+/**
+ * Main class to create a JFrame and display the login panel.
+ *
+ * @author javiergs
+ */
 public class Main extends JFrame {
 	
 	public Main() {
-		LoginNanny joinRoomNanny = new LoginNanny(this);
-		LoginPanel joinRoomPanel = new LoginPanel(joinRoomNanny);
-		add (joinRoomPanel);
+		LoginNanny loginNanny = new LoginNanny(this);
+		LoginPanel loginPanel = new LoginPanel(loginNanny);
+		add(loginPanel);
 	}
 	
 	public static void main(String[] args) {
@@ -19,3 +24,4 @@ public class Main extends JFrame {
 	}
 	
 }
+
